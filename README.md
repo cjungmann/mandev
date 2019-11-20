@@ -145,6 +145,21 @@ man -P 'less +/STYLE\ GUIDE' man-pages
 This is **very** helpful.  I had been looking for something like
 this for a very long time.
 
+#### Non-standard Standards
+
+The *man-pages* style guide does not cover all issues.  When I
+have a question that isn't covered in *man-pages*, I will attempt
+to find example solutions and list them here.
+
+- **Many-parametered Functions**
+  - *Issue*  Some functions have so many
+    parameters that the function definition cannot fit in less
+    than (around) 75 character lines.
+  - *Solution* Add hard line-breaks to restrict line length.
+  - *Published example*  See `man 3 pcre`.
+  - *Local example* *big_function()* in SYNOPSIS section of
+    sample.1 in this repository.
+
 ## Installing a **man** Page
 
 A *man-page* document is not very useful if it cannot be invoked

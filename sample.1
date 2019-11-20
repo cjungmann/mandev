@@ -14,11 +14,18 @@ sample - Man Page Template
 \#
 \# SECTION
 .SH SYNOPSIS
-
+.TP
 .B sample
 .RI [ options ]
+.TP
+.BI "void big_function(const char* " name ",  const char*" title ,
+.RS
+.BI          " unsigned int " age ", float " height_cm ,
+.br
+.BI          " float " weight_kg ", const char* " zipcode );
+.RE
 \#
-\# SECTION
+\# SECTION description
 .SH DESCRIPTION
 This is a description of the use of
 .BI sample .
@@ -48,7 +55,7 @@ blissful ignorance.
 Attempting to read several groff register variables:
 \n[.F] should be the file name.
 
-\# SECTION
+\# SECTION options
 .SH OPTIONS
 .SS Basic Options
 \#
@@ -71,6 +78,7 @@ The results of the utility will be written to the
 .I output file
 rather than to 
 .I stdout
+
 
 
 \# SECTION
