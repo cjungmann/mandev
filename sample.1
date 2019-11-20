@@ -1,0 +1,79 @@
+\# .TH = Title Section
+\# Refer to: man -P 'less +/Title line' man-pages
+.TH sample 1 "\n[year]-\n[mo]-\n[dy]" "Version 1.0"
+\# Note the \n[year]... string.  It uses 
+
+\# A man page includes many sections.
+\# Refer to: man -P 'less +/Sections\ within\ a\ manual\ page' man-pages
+\# This template will include the *should include* sections of the just-mentioned page,
+\# plus the OPTIONS section which uses unique formatting.
+
+\# Obvious, just show the command/function/topic name
+.SH NAME
+sample - Man Page Template
+\#
+\# SECTION
+.SH SYNOPSIS
+
+.B sample
+.RI [ options ]
+\#
+\# SECTION
+.SH DESCRIPTION
+This is a description of the use of
+.BI sample .
+\#
+\# SUB-SECTION
+.SS Subsection of DESCRIPTION
+Subsections can further categorize the contents of a section.
+\# SUB-SECTION
+.SS What sample Actually does
+.PP
+The
+\# Make text bold with .B macro, making text on the line bold.
+.B sample
+utility simplifies your life by automatically posting for sale
+on eBay the entire contents of your home while you are on
+vacation. When you return home, your new life will approximate
+the simplicity of your vacation life.
+.PP
+\# A word can be made bold with specific font commands:
+\fBsample\fR does other things, but to maintain the famous
+simplicity of \fBsample\fR, we will keep the disturbing
+details to ourselves.  Please continue your life in
+blissful ignorance.
+\# SUB-SECTION
+.SS Let's See What GROFF Does
+
+Attempting to read several groff register variables:
+\n[.F] should be the file name.
+
+\# SECTION
+.SH OPTIONS
+.SS Basic Options
+\#
+\# Option  - with hanging indent (.TP)
+.TP
+.BI -i " input file"
+The contents of the
+.I input file
+will be read instead of the contents of 
+.B stdout.
+
+What happens if I simply include a blank line between paragraphs?
+will it maintain the indenting, even though it's a implied new
+paragraph?
+\#
+\# Option  - with hanging indent (.TP)
+.TP
+.BI -o " output file"
+The results of the utility will be written to the
+.I output file
+rather than to 
+.I stdout
+
+
+\# SECTION
+.SH SEE ALSO
+.BR sample(3) ", " sample(7) ", " example(1) ", " example(3)
+
