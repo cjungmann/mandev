@@ -134,6 +134,13 @@ man page, it is a brief and incomplete reference.  Refer to the
 many chapters of the *groff* info document (`info groff`) for a
 more complete and authoritative reference.
 
+### EMACS hint
+
+If you are developing the *man* page in EMACS, you should see
+the major mode running in **troff** mode.  If so, you may find
+that `C-c C-c` opens or updates a pane with the rendered view
+of the man page you are developing.  Try it and see.
+
 ### Man Page Content
 
 #### Style Guide
