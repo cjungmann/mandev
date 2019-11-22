@@ -3,6 +3,9 @@
 I have come to greatly appreciate the offline document available
 on Linux, **man** and **info** pages.
 
+See [Guide to Available *Man* Pages](README_guide.md) for hints about
+useful and interesting *man* pages.
+
 When developing my own projects, I eventually get around to writing
 my own offline documentation.  The problem is that I forget a lot
 bewteen man-writing sessions, and I'm never quite sure I'm doing it
