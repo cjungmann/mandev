@@ -6,7 +6,7 @@ by new discoveries.
 There are many *man* pages that extaordinarily useful, yet may be rarely
 used.
 
-## Some Useful *Man* Pages
+## Some Useful *Man* and *Info* Pages
 
 There are pages that reward occasional browsing.  I write a lot of
 BASH scripts, so I'm pretty comfortable with the builtin functions I
@@ -18,6 +18,10 @@ information introduces me to new possibilities.
   kernel.
 
 - `man builtins` BASH builtin commands
+
+- `info coreutils` is an index of the fundamental commands in Linux.
+  Browse this document to discover unfamiliar utilites and remind
+  yourself of old friends.
 
 ## Find-Your-Own Man Pages
 
